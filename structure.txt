@@ -1,0 +1,13 @@
+legal_bot/
+├── data/
+│   └── laws/               # База знаний (PDF-файлы с законами)
+├── handlers/
+│   ├── common.py           # Команды /start, /help
+│   ├── legal_query.py      # Обработка вопросов через OpenAI
+│   └── booking.py          # Логика записи на консультацию (FSM)
+├── services/
+│   ├── openai_service.py   # Логика работы с Assistants API
+│   └── google_sheets.py    # Интеграция с таблицами
+├── .env                    # Токены и API ключи
+├── config.py               # Загрузка настроек
+└── main.py                 # Точка входа в приложение

@@ -1,0 +1,15 @@
+# Фреймворк для Telegram-бота
+aiogram>=3.3.0
+
+# Работа с API OpenAI (Assistants, GPT-4)
+openai>=1.12.0
+
+# Работа с Google Таблицами
+gspread>=6.0.0
+oauth2client>=4.1.3
+
+# Управление переменными окружения
+python-dotenv>=1.0.1
+
+# Асинхронная работа с файловой системой (для threads.json)
+aiofiles>=23.2.1
